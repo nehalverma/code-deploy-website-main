@@ -3,18 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Pleasing Static Website</title>
+    <title>Blooming Blossoms - Your Flower Shop</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
-            background-image: url('https://www.transparenttextures.com/patterns/flowers.png');
+            background-color: #fdf9f3;
         }
 
         header {
-            background-color: #4CAF50;
+            background-color: #ff6f61;
             color: white;
             padding: 1em 0;
             text-align: center;
@@ -43,6 +42,7 @@
         main {
             padding: 2em;
             text-align: center;
+            background-image: url('https://www.transparenttextures.com/patterns/flowers.png');
         }
 
         footer {
@@ -88,15 +88,34 @@
             50% { transform: translateY(-20px); }
         }
 
+        .flower {
+            width: 100px;
+            height: auto;
+            margin: 1em;
+            border-radius: 50%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .product {
+            display: inline-block;
+            margin: 1em;
+            text-align: center;
+        }
+
+        .product h3 {
+            margin: 0.5em 0;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Simple Website</h1>
+        <h1>Welcome to Blooming Blossoms</h1>
+        <p>Your one-stop shop for beautiful flowers</p>
     </header>
     <nav>
         <a href="#home">Home</a>
         <a href="#about">About</a>
+        <a href="#shop">Shop</a>
         <a href="#contact">Contact</a>
     </nav>
     <main>
@@ -106,13 +125,27 @@
                 <div class="butterfly"></div>
                 <div class="butterfly"></div>
                 <div class="butterfly"></div>
-                <h2>Home</h2>
-                <p>This is a simple and pleasing static website example. You can use this template to start creating your own website. It's clean, modern, and easy to customize.</p>
+                <h2>Our Best Sellers</h2>
+                <div class="product">
+                    <img src="https://via.placeholder.com/100" alt="Rose Bouquet" class="flower">
+                    <h3>Rose Bouquet</h3>
+                    <p>$25.00</p>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/100" alt="Tulip Garden" class="flower">
+                    <h3>Tulip Garden</h3>
+                    <p>$30.00</p>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/100" alt="Sunflower Sunshine" class="flower">
+                    <h3>Sunflower Sunshine</h3>
+                    <p>$20.00</p>
+                </div>
             </div>
         </div>
     </main>
     <footer>
-        <p>&copy; 2024 My Simple Website. All rights reserved.</p>
+        <p>&copy; 2024 Blooming Blossoms. All rights reserved.</p>
     </footer>
 </body>
 </html>
